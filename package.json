@@ -1,9 +1,17 @@
 {
   "name": "helplib",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Boost your project development with this helpful toolkit",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://github.com/nuhh0/helplib#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuhh0/helplib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nuhh0/helplib/issues"
+  },
   "files": [
     "dist"
   ],
