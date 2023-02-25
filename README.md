@@ -16,7 +16,7 @@ npm install helplib
     - [formatDate(date, format);](#formatdatedate-format)
     - [getDayOfWeek(date, locale);](#getdayofweekdate-locale)
     - [getMonthName(date, locale);](#getmonthnamedate-locale)
-    - [getYearAndWeekNumber(date, locale);](#getyearandweeknumberdate-locale)
+    - [getYearAndWeekNumber(date);](#getyearandweeknumberdate)
   - [Formatting functions](#formatting-functions)
     - [formatData(data, text);](#formatdatadata-text)
     - [formatString(text, ...params);](#formatstringtext-params)
@@ -80,7 +80,7 @@ console.log(getMonthName(new Date(), 'en-US')); // Februrary
 console.log(getMonthName(undefined, 'tr-TR')); // Şubat
 ```
 
-#### getYearAndWeekNumber(date, locale);
+#### getYearAndWeekNumber(date);
 
 ##### Gets the year and week number for the given date object.
 
