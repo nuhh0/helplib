@@ -13,7 +13,7 @@
     "url": "https://github.com/nuhh0/helplib/issues"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "build": "tsc",
