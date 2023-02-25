@@ -22,5 +22,3 @@ __exportStar(require("./format/formatData"), exports);
 __exportStar(require("./format/formatString"), exports);
 __exportStar(require("./generator/generateId"), exports);
 __exportStar(require("./generator/generatePassword"), exports);
-__exportStar(require("./hash/hashSHA256"), exports);
-__exportStar(require("./hash/hashSHA256Controller"), exports);

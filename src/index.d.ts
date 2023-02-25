@@ -6,5 +6,3 @@ export * from "./format/formatData";
 export * from "./format/formatString";
 export * from "./generator/generateId";
 export * from "./generator/generatePassword";
-export * from "./hash/hashSHA256";
-export * from "./hash/hashSHA256Controller";

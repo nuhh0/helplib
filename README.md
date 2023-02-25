@@ -23,9 +23,6 @@ npm install helplib
   - [Generation functions](#generation-functions)
     - [generateId(length);](#generateidlength)
     - [generatePassword(length);](#generatepasswordlength)
-  - [Hashing functions](#hashing-functions)
-    - [hashSHA256(data);](#hashsha256data)
-    - [hashSHA256Controller(data, hash);](#hashsha256controllerdata-hash)
 
 ## Functions
 
@@ -170,39 +167,6 @@ const { generatePassword } = require('helplib');
 
 console.log(generatePassword()); // i2o2a3My => length = 8;
 console.log(generatePassword(7)); // fUYzWVZ0 => length = 8;
-```
-
-### Hashing functions
-
-#### hashSHA256(data);
-
-##### Returns the SHA256 hash of the given data.
-
-###### `data`: The data to hash.
-
-```js
-const { hashSHA256 } = require('helplib');
-
-const data = 'super secret data';
-
-console.log(hashSHA256(data)); // 356aa00397950a85080c0de1f27c84a05f3c7c424e397fe51c0d00e454b6fac6
-```
-
-#### hashSHA256Controller(data, hash);
-
-##### Checks if the given hash matches the SHA256 hash of the given data. The entered data will be hashed and compared with the hash to be entered.
-
-###### `data`: The data to check.
-###### `hash`: The hash to compare against.
-
-```js
-const { hashSHA256Controller } = require('helplib');
-
-const data = 'super secret data';
-
-const hash = '356aa00397950a85080c0de1f27c84a05f3c7c424e397fe51c0d00e454b6fac6';
-
-console.log(hashSHA256Controller(data, hash)); // true
 ```
 
 ## License
