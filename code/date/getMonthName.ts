@@ -5,7 +5,6 @@
  * @param {string} locale - The locale to use for the month name. Defaults to "en-US".
  * @returns {string} The name of the month in the specified locale.
  */
-export function getMonthName( date: Date = new Date(), locale: string = 'en-US' ): string
-{
-    return date.toLocaleDateString( locale, { month: 'long' } );
+export function getMonthName(date: Date = new Date(), locale: string = 'en-US'): string {
+    return date.toLocaleDateString(locale, { month: 'long' });
 }
