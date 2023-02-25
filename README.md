@@ -1,5 +1,5 @@
 # helplib
-##### helplib is an npm module that provides useful functions, including date, formatting, generation, and hashing functionalities.
+##### helplib is an npm module that provides useful functions, including date, formatting, generation functionalities.
 
 ## Installation
 
